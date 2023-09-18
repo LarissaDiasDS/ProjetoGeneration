@@ -1,0 +1,61 @@
+package cliente;
+
+public class Cliente {
+ 
+				private String nome;
+				private String profissao;
+				private int idade;
+				private int phone;
+				private String genero;
+				
+				
+		    public Cliente(String nome, String profissao, int idade, int phone, String genero) {
+					this.nome = nome;
+					this.profissao = profissao;
+					this.idade = idade;
+					this.phone = phone;
+					this.genero = genero;
+					
+				}
+			public String getNome() {
+				return nome;
+			}
+			public void setNome(String nome) {
+				this.nome = nome;
+			}
+			public String getProfissao() {
+				return profissao;
+			}
+			public void setProfissao(String profissao) {
+				this.profissao = profissao;
+			}
+			public int getIdade() {
+				return idade;
+			}
+			public void setIdade(int idade) {
+				this.idade = idade;
+			}
+			public int getPhone() {
+				return phone;
+			}
+			public void setPhone(int phone) {
+				this.phone = phone;
+			}
+			public String getGenero() {
+				return genero;
+			}
+			public void setGenero(String genero) {
+				this.genero = genero;
+			}
+			public void visualizar() {
+				System.out.println(" Nome: " + nome);
+				System.out.println(" Profissão: " + profissao);
+				System.out.println(" Idade: " + idade);
+				System.out.println(" Telefone: " + phone);
+				System.out.println(" Genero: " + genero);
+			}
+				
+				
+		
+
+}

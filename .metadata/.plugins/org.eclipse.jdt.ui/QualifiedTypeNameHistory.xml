@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="Livros.EstanteLivros"/>
+    <fullyQualifiedTypeName name="Livros.Romance"/>
+    <fullyQualifiedTypeName name="Livros.Ficcao"/>
+    <fullyQualifiedTypeName name="Livros.Terror"/>
+    <fullyQualifiedTypeName name="Livros.Quadrinhos"/>
+    <fullyQualifiedTypeName name="Livros.Infantil"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+</qualifiedTypeNameHistroy>

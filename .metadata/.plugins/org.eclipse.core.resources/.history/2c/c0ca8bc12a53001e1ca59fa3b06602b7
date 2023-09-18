@@ -1,0 +1,31 @@
+package cliente;
+
+public class PessoaFisica extends Cliente{
+     
+	
+	 public PessoaFisica(String nome, String profissao, int idade, int phone, String genero, String cpf) {
+		super(nome, profissao, idade, phone, genero);
+		this.cpf = cpf;
+		
+	}
+
+	private String cpf;
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	@Override
+	public void visualizar() {
+		super.visualizar();
+		System.out.println(" cpf: " + cpf);
+	}
+	
+	 
+	 
+	 
+	 
+}

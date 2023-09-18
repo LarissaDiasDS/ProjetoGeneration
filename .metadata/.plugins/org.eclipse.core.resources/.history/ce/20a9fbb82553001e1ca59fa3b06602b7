@@ -1,0 +1,21 @@
+package cliente;
+
+public class TesteCliente {
+
+	public static void main(String[] args) {
+	   PessoaFisica novoCliente = new PessoaFisica("Larissa ", "Desenvolvedora Java jr.", 25, 963438976,"Feminino", "89562321455");
+	   PessoaFisica novoCliente1 = new PessoaFisica("Leticia", "Nutricionista.", 20, 958586236,"Feminino", "23214555855");
+	   PessoaJuridica novoCliente2 = new PessoaJuridica("Edu", "Eletricista", 34, 958360023,"Masculino", "00012023555623");
+	   PessoaJuridica novoCliente3 = new PessoaJuridica("Marcos", "Padeiro", 28, 952368975,"Masculino", "23214555855256");
+	   
+	
+	   
+		novoCliente.visualizar();
+		novoCliente1.visualizar();
+		novoCliente2.visualizar();
+		novoCliente3.visualizar();
+		
+
+	}
+
+}

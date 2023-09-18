@@ -1,0 +1,76 @@
+package Biblioteca;
+
+import java.util.Scanner;
+
+import Livros.EstanteLivros;
+
+public class Biblioteca {
+
+	public static void main(String[] args) {
+		 
+		Scanner ler = new Scanner(System.in);
+		
+		int op;
+		
+		System.out.println("*************************************************");
+		System.out.println("*                  BIBLIOTECA                   *");
+		System.out.println("*************************************************");
+		System.out.println("*               Estante Literária               *");
+		System.out.println("*                                               *");
+		System.out.println("*                 1 - Romance:                  *");
+		System.out.println("*                 2 - Ficção:                   *");
+		System.out.println("*                 3 - Maior +18:                *");
+		System.out.println("*                 4 - Infantil:                 *");
+		System.out.println("*                 5 - Quadrinhos:               *");
+		System.out.println("*                 6 - Sair.                     *");
+		System.out.println("*                                               *");
+		System.out.println("*************************************************");
+		
+		
+		while (true) {
+			
+			System.out.println("*  Escolha o genero literario:                  *");
+			
+			
+			op = ler.nextInt();
+			
+			if (op == 6) {
+				System.out.println("\nLembre-se, A leitura engrandece a alma!");
+				ler.close();
+				System.exit(0);
+			}
+			switch (op) {
+			case 1:
+				System.out.println("Romance: \n");
+				
+				break;
+				
+			case 2:
+				System.out.println("Ficção: \n");
+				
+				break;
+				
+			case 3:
+				System.out.println("Maior +18: \n");
+				
+				break;
+				
+			case 4:
+				System.out.println("Infantil: \n");
+				
+				break;
+				
+			case 5:
+				System.out.println("Quadrinhos: \n");
+				
+				break;
+				
+			default:
+				System.out.println("\nOpção Invalida!");
+				
+			}
+		}
+
+	}
+
+}

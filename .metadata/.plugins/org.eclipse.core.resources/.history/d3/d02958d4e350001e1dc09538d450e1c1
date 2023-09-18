@@ -1,0 +1,17 @@
+package funcionario;
+
+public class TesteFuncionario {
+
+	public static void main(String[] args) {
+		
+		Funcionario  = new Funcionario("Larissa", "Desenvolvedora Java jr", 25 , 16292, "Feminino");
+	
+	
+		
+		
+		System.out.println("Nome do Funcionario: " + novoFuncionario.);
+	
+
+	}
+
+}

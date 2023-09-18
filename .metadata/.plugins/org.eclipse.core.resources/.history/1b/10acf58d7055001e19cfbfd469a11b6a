@@ -1,0 +1,36 @@
+package Biblioteca;
+
+import java.util.Scanner;
+
+public class Biblioteca {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		
+		int op;
+		
+		while (true) {
+			System.out.println("*************************************************");
+			System.out.println("*                  BIBLIOTECA                   *");
+			System.out.println("*************************************************");
+			System.out.println("*               Estante Literária               *");
+			System.out.println("*                                               *");
+			System.out.println("*                 1 - Romance:                  *");
+			System.out.println("*                 2 - Ficção:                   *");
+			System.out.println("*                 3 - Maior +18:                *");
+			System.out.println("*                 4 - Infantil:                 *");
+			System.out.println("*                 5 - Quadrinhos:               *");
+			System.out.println("*                 6 - Sair.                     *");
+			System.out.println("*                                               *");
+			System.out.println("*************************************************");
+			System.out.println("*  Escolha o genero literario:                  *");
+			System.out.println("*                                               *");
+			
+			op = ler.nextInt();
+			
+			
+		}
+
+	}
+
+}

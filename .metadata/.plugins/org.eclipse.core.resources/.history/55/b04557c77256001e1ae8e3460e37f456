@@ -1,0 +1,31 @@
+package Livros;
+
+public class Romance extends EstanteLivros{
+	
+	private String titulo;
+	private String autor ;
+	private String idioma ;
+	
+	
+	@Override
+	 public void titulo() {
+		titulo = "Perdida";
+	}
+	
+	@Override
+	 public void autor() {
+		autor = "Carina Rissi";
+	}
+	@Override
+	 public void idioma() {
+		 idioma = "Portugues BR";
+	}	
+		
+	@Override
+     public void visualizar() {
+    	 super.visualizar();
+    	System.out.println("Titulo do livro: " + titulo);
+ 		System.out.println("Autor(a) do Livro: " + autor);
+ 		System.out.println("Idioma do livro: " + idioma);
+     }
+}

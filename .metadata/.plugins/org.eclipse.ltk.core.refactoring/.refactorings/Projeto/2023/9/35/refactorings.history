@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Projeto.Testando&apos; to &apos;For&apos;&#x0D;&#x0A;- Original project: &apos;Projeto&apos;&#x0D;&#x0A;- Original element: &apos;Projeto.Testando&apos;&#x0D;&#x0A;- Renamed element: &apos;Projeto.For&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Testando&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Projeto{Testando.java[Testando" matchStrategy="1" name="For" qualified="false" references="true" similarDeclarations="false" stamp="1693581649751" textual="false" version="1.0"/>
+</session>

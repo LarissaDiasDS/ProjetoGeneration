@@ -1,0 +1,65 @@
+package cliente;
+
+import java.util.Scanner;
+
+public class PessoaFisica extends Cliente implements Cadastro{
+     Scanner ler = new Scanner(System.in);
+     
+     private String nome;
+     private String profissao;
+     private int idade;
+     private String phone;
+     private String genero;
+     private String cadastro;
+     
+     
+
+    @Override	
+	public void nome() {
+		System.out.println("Digite seu nome: ");
+		nome = ler.nextLine();
+		}
+	@Override
+	public void profissao() {
+		System.out.println("Digite sua profissão: ");
+		profissao = ler.nextLine();
+		}
+	@Override
+	public void idade() {
+		System.out.println("Digite sua idade: ");
+		idade = ler.nextInt();
+	}
+	@Override
+	public void phone() {
+		System.out.println("Digite o numero de telefone: ");
+		phone = ler.nextLine();
+	}
+	@Override
+	public void genero() {
+		System.out.println("Digite o genero que se identifica: ");
+		genero = ler.nextLine();
+	}
+	@Override
+	public void visualizar() {
+		System.out.println("Nome" + nome);
+		System.out.println("Profissão" + profissao);
+		System.out.println("Idade" + idade);
+		System.out.println("genero" + genero);
+		System.out.println("telefone" + phone);
+		System.out.println("cadastro" + cadastro);
+	}
+
+	
+
+	@Override
+	public void cadastro() {
+		System.out.println("Digite seu cpf: ");
+		cadastro = ler.nextLine();
+	}
+	
+	
+	 
+	 
+	 
+	 
+}
